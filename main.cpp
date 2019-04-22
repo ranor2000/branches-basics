@@ -1,12 +1,16 @@
 #include <iostream>
 
+using std::cin;
+using std::cout;
+using std::endl;
+
 int main()
 {
     int f;
-    std::cin >> f;
+    cin >> f;
 
     f *= 5;
-    std::cout << f << std::endl;
+    cout << f << endl;
 
     return 0;
 }
